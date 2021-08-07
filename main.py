@@ -12,40 +12,41 @@ FayasNoushad = Client(
 )
 
 START_TEXT = """
-Hello {}, I am a simple calculator telegram bot. Send me /calculator.
+<b>Hello {}, I am a simple calculator telegram bot. Send me /calculator.
 
-Made by @FayasNoushad
+Made by @Mo_Tech_YT</b>
 """
-START_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')
+START_BUTTONS = InlineKeyboardMarkup( [[
+        InlineKeyboardButton('📢Updates', url='https://telegram.me/Mo_Tech_YT'),
+        InlineKeyboardButton('💥Support', url='https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ'),
+        InlineKeyboardButton('♻️Source', url='https://github.com/MoTechYT/Calculator-Bot')
         ]]
     )
-CALCULATE_TEXT = "Made by @FayasNoushad"
+CALCULATE_TEXT = "<b>Made by @Mo_Tech_YT</b>"
 CALCULATE_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton("DEL", callback_data="DEL"),
-        InlineKeyboardButton("AC", callback_data="AC"),
+        InlineKeyboardButton("🄳🄴🄻", callback_data="DEL"),
+        InlineKeyboardButton("🄰🄲", callback_data="AC"),
         InlineKeyboardButton("(", callback_data="("),
         InlineKeyboardButton(")", callback_data=")")
         ],[
-        InlineKeyboardButton("7", callback_data="7"),
-        InlineKeyboardButton("8", callback_data="8"),
-        InlineKeyboardButton("9", callback_data="9"),
+        InlineKeyboardButton("⑦", callback_data="7"),
+        InlineKeyboardButton("⑧", callback_data="8"),
+        InlineKeyboardButton("⑨", callback_data="9"),
         InlineKeyboardButton("÷", callback_data="/")
         ],[
-        InlineKeyboardButton("4", callback_data="4"),
-        InlineKeyboardButton("5", callback_data="5"),
-        InlineKeyboardButton("6", callback_data="6"),
-        InlineKeyboardButton("×", callback_data="*")
+        InlineKeyboardButton("④", callback_data="4"),
+        InlineKeyboardButton("⑤", callback_data="5"),
+        InlineKeyboardButton("⑥", callback_data="6"),
+        InlineKeyboardButton("Ⓧ︎", callback_data="*")
         ],[
-        InlineKeyboardButton("1", callback_data="1"),
-        InlineKeyboardButton("2", callback_data="2"),
-        InlineKeyboardButton("3", callback_data="3"),
+        InlineKeyboardButton("①", callback_data="1"),
+        InlineKeyboardButton("②", callback_data="2"),
+        InlineKeyboardButton("③", callback_data="3"),
         InlineKeyboardButton("-", callback_data="-"),
         ],[
         InlineKeyboardButton(".", callback_data="."),
-        InlineKeyboardButton("0", callback_data="0"),
+        InlineKeyboardButton("⓪", callback_data="0"),
         InlineKeyboardButton("=", callback_data="="),
         InlineKeyboardButton("+", callback_data="+"),
         ]]
