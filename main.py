@@ -22,7 +22,7 @@ START_BUTTONS = InlineKeyboardMarkup( [[
         InlineKeyboardButton('♻️Source', url='https://github.com/MoTechYT/Calculator-Bot')
         ]]
     )
-CALCULATE_TEXT = "**Made by @Mo_Tech_YT**"
+CALCULATE_TEXT = "Made by @Mo_Tech_YT"
 CALCULATE_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton("🄳🄴🄻", callback_data="DEL"),
