@@ -14,12 +14,12 @@ FayasNoushad = Client(
 START_TEXT = """
 <b>Hello {}, I am a simple calculator telegram bot. Send me /calculator.
 
-Made by @Mo_Tech_YT</b>
+Made by @KOT_BOTS</b>
 """
 START_BUTTONS = InlineKeyboardMarkup( [[
-        InlineKeyboardButton('📢Updates', url='https://telegram.me/Mo_Tech_YT'),
-        InlineKeyboardButton('💥Support', url='https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ'),
-        InlineKeyboardButton('♻️Source', url='https://github.com/MoTechYT/Calculator-Bot')
+        InlineKeyboardButton('📢Updates', url='https://t.me/KOT_BOTS'),
+        InlineKeyboardButton('💥Support', url='https://t.me/KOT_REPORS'),
+        InlineKeyboardButton('♻️Source', url='https://t.me/KOT_FREE_DE_LA_HOYA_OFF_YT')
         ]]
     )
 CALCULATE_TEXT = "Made by @Mo_Tech_YT"
