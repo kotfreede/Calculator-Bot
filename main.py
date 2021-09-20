@@ -22,7 +22,7 @@ START_BUTTONS = InlineKeyboardMarkup( [[
         InlineKeyboardButton('♻️Source', url='https://t.me/KOT_FREE_DE_LA_HOYA_OFF_YT')
         ]]
     )
-CALCULATE_TEXT = "Made by @Mo_Tech_YT"
+CALCULATE_TEXT = "Made by @KOT_FREE_DE_LA_HOYA_OFF"
 CALCULATE_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton("🄳🄴🄻", callback_data="DEL"),
